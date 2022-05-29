@@ -1,4 +1,4 @@
-#ejercicio retador 2
+#ejercicioretador#2
 variablemunicipios= input("escribe el nombre del municipio  ")
 variablenumerodehabitantes= int(input("escribe la cantidad de habitantes"))
 variablemunicipios2= input("escribe el nombre del municipio")
