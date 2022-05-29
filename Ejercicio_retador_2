@@ -1,9 +1,9 @@
-#ejercicioretador#2
+#ejercicio retador 2
 variablemunicipios= input("escribe el nombre del municipio  ")
 variablenumerodehabitantes= int(input("escribe la cantidad de habitantes"))
 variablemunicipios2= input("escribe el nombre del municipio")
-variablenumerodehabitantes2=int(input("escribe el numero de habitantes de este municipio")
-variablemunicipios3=input("escribe el nombre del muncipio")
+variablenumerodehabitantes2=int(input("escribe el numero de habitantes de este municipio"))
+variablemunicipios3=input("escribe el nombre del municiipio  ")
 variablehabitantes3= int(input("Escribe el numero de habitantes"))
 variablesuma= variablenumerodehabitantes+variablenumerodehabitantes2+variablehabitantes3
 variablepromedio= variablesuma/3
