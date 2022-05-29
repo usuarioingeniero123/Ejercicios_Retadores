@@ -1,17 +1,15 @@
-#Ejercicioretador1.
-superficiedelestadodesinaloakilometros=57,365
-precipitacionanualpromedioestadodesinaloa=790.1
-variablepoblacionmujeres=1532128
-variablepoblacionhombre=1494815
-poblacióntotal=variablepoblacionmujeres+variablepoblacionhombre
-print("La poblacion total es ", poblacióntotal,"HABITANTES" )
+#ejercicio retador 2
+variablemunicipios= input("escribe el nombre del municipio  ")
+variablenumerodehabitantes= int(input("escribe la cantidad de habitantes"))
+variablemunicipios2= input("escribe el nombre del municipio")
+variablenumerodehabitantes2=int(input("escribe el numero de habitantes de este municipio"))
+variablemunicipios3=input("escribe el numero de habitantes del municiipio  ")
+variablehabitantes3= int(input("Escribe el numero de habitantes"))
+variablesuma= variablenumerodehabitantes+variablenumerodehabitantes2+variablehabitantes3
+variablepromedio= variablesuma/3
 
-porcentajeculiacan= 33.57
-porcentajemazatlan=16.57
+print("La cantidad de habitantes total es",variablesuma)
+print(" el promedio de habitantes es ",variablepromedio)
 
-totalporcentajedeculiacanymazatlan=porcentajeculiacan+porcentajemazatlan
-print("El porcentaje total es: ", totalporcentajedeculiacanymazatlan,"%")
-temperaturaanual=("La temperatura media anual es de 25.45")
-tiposdeclima=("Los tipo de clima son: Cálido,subhumedo, seco y semiseco")
-print(temperaturaanual)
-print(tiposdeclima)
+
+
