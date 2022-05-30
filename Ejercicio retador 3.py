@@ -3,7 +3,7 @@
 #permita saber si se podrá realizar o no la entrega de un pedido según las restricciones
 #anteriores y el número de costales de cemento y yeso que fueron requeridos por el cliente.
 
-costalesdecemento= input("Dame la cantidad de costales de cemento ")
+costalesdecemento= input("Dame la cantidad de costales de cemento 
 costalesdeyeso= input ("Dame la cantidad de costales de yeso ")
 costalesdecemento12=int(costalesdecemento)
 costalesdeyeso123=int(costalesdeyeso)
