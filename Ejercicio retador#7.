@@ -19,24 +19,28 @@ def iniciarEjercicio_7():
             codigoDestino = input("Ingresa el destino: ")
             clientePreferente = input("Cliente preferente (Si/NO): ")
 
-            clientes[ine] = [
-                nombre,
-                edad,
-                codigoDestino,
-                clientePreferente == 'Si' if True else False
-            ]
-
+            clientes.update({
+                ine: [
+                    nombre,
+                    edad,
+                    codigoDestino,
+                    clientePreferente == 'Si' if True else False
+                ]
+            })
         elif opcion == '2':
             print("--- Listar todos los clientes ---")
-            for cliente in clientes.items():
-                print(cliente)
+            print(clientes)
         elif opcion == '3':
             print("--- Listar clientes preferentes ---")
-            for cliente in clientes.items():
-                if cliente[1][3]:
+            for clave, cliente in clientes.items():
+                if cliente[3]:
                     print(cliente)
         elif opcion == '4':
             print("--- Saliste del programa ---")
             break
+          
+     
+  
 
-    iniciarEjercicio_7()
+
+iniciarEjercicio_7()
