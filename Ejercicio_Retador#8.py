@@ -1,3 +1,5 @@
+#Ejercicio retador #8
+#Funciones en Python
 def iniciarEjercicio_8():
     print("--- Ejercicio Retador #8 Funciones en Python ---")
 
@@ -89,3 +91,5 @@ def iniciarEjercicio_8():
         elif opcion == '7':
             print("--- Saliste del programa ---")
             break
+
+iniciarEjercicio_8()
