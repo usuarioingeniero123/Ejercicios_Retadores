@@ -91,3 +91,6 @@ def iniciarEjercicioIntegrador():
     promedioPasajeros()
     menoresVuelos()
     promedioGeneral()
+
+
+iniciarEjercicioIntegrador()
