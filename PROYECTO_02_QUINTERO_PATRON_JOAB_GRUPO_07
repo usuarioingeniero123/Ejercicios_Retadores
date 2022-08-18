@@ -9,7 +9,7 @@ def iniciarSynergy():
     indice = 0
     BD = {}
     for fila in lector:
-        if fila[4] == '2015':
+        if fila[4] >= '2015' and fila[4] != 'year':
             indice += 1
             BD[indice] = fila
 
@@ -36,7 +36,7 @@ def iniciarSynergy():
         totalesMaximosServicios[totalMaximo[0]] = totalMaximo[1]
 
     for n in range(0, len(totalesMaximosServicios)):
-        if n + 1 <= 64:
+        if n + 1 <= 162:
             totalMinimo = min(totalesMaximosServicios.items(), key=operator.itemgetter(1))
             totalesMaximosServicios.pop(totalMinimo[0])
 
@@ -48,4 +48,7 @@ def iniciarSynergy():
     for totalServicio in totalesMaximosServicios.items():
         print(BD[totalServicio[0]])
 
- iniciarSynergy()
+
+
+
+iniciarSynergy()
